@@ -18,9 +18,10 @@ Scripts generated and tested with Matlab (v2023b). Required input data tables pr
 - TraJClassifier data tables: all four track classes and Parents .csv tables
 - All the tables should be stored in a single folder, together with the corresponding .tif stack used in Trackmate and TraJClassifier
 - Make sure all the subroutines required are accessible by Matlab
-- Select the desire options at the beginning of the script TIRF_Tracks_MSD.m. Make sure to indicate  the proper pixel size before running TIRF_Tracks_MSD.m (should be the same value as the one used during Trackmate analysis)
+- Select the desire options at the beginning of the script TIRF_Tracks_MSD.m, by typing either "true" or "false". Make sure to indicate the proper pixel size before running TIRF_Tracks_MSD.m (should be the same value as the one used during Trackmate analysis)
 - Run TIRF_Tracks_MSD.m, select the folder where all the tables and tif stack are
 - Generates csv result tables in a new folder, as well as graphs.
+- An example is provided as a zip file: download and unzip it. It contains the required trackmate and trajclassifier tables, as well as the tif file of the first frame of the TIRF acquisition sequence.
 
 
 
