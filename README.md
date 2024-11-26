@@ -4,7 +4,9 @@ This set of Matlab scripts are used to analyze output tables produced by the Ima
 
 It allows visualization of the different classes of track identified by the two plugins (static image with tracks overlay, as well as overlay video of the tracks and the original microscopy movie) ,  produces MSD graphs and summary tables about various parameters (proportion for each subtype of track, duration, intensity, diameter etc.). 
 
+
 ![](https://github.com/clementverkest/PIEZO_Track_Analysis/tracks_movie.gif)
+
 
 # Requirements
 Scripts generated and tested with Matlab (v2023b). Required input data tables produced with Trackmate (v7.13.2) and TraJClassifier.
