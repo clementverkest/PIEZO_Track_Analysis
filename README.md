@@ -9,7 +9,7 @@ It allows visualization of the different classes of track identified by the two 
 # Requirements
 Scripts generated and tested with Matlab (v2023b). Required input data tables produced with Trackmate (v7.13.2) and TraJClassifier.
 
- Required main scripts (TIRF_Tracks_MSD.m or TIRF_Tracks_MSD_loop.m) and associated subroutines (ExtractAndAssignTracks.m, PlotAllTracks.m, calculate_msd.m, average_msd.m, calculate_diffusion_coefficient.m, GaussFit2D.m, ExtractMSD_AVG_Results.m, ExtractTracksClustersResults.m)
+ Required main scripts (TIRF_Tracks_MSD.m) and associated subroutines (ExtractAndAssignTracks.m, PlotAllTracks.m, calculate_msd.m, average_msd.m, calculate_diffusion_coefficient.m, GaussFit2D.m, ExtractMSD_AVG_Results.m, ExtractTracksClustersResults.m)
 
 
 
@@ -21,7 +21,6 @@ Scripts generated and tested with Matlab (v2023b). Required input data tables pr
 - Make sure to indicate the proper pixel size before running TIRF_Tracks_MSD.m (should be the same value as the one used during Trackmate analysis)
 - Run TIRF_Tracks_MSD.m, select the folder where all the tables and tif stack are
 - Generates csv result tables in a new folder, as well as graphs.
-- Possibility to batch process multiple cells/conditions/folders with TIRF_Tracks_MSD_loop.m: a parent folder should contain subfolders which contain required tables. No other type of subfolders should be here. Run TIRF_Tracks_MSD_loop.m, select the parent folder. For faster processing, do not generate graph for each iteration. Then run ExtractMSD_AVG_Results.m and ExtractTracksClustersResults.m to generate summary tables of all the processed files
 
 
 
