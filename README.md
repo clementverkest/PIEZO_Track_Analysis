@@ -32,5 +32,6 @@ Scripts generated and tested with Matlab (v2023b). Required input data tables pr
 
 # Citation
 Upcoming work Verkest et al., 2024, in preparation.
+Preprint available: https://www.biorxiv.org/content/10.1101/2024.11.26.625366v1.full
 
 Do not forget to cite Trackmate v7 related paper (DOI: 10.1038/s41592-022-01507-1) and TraJClassifier (DOI: 10.1371/journal.pone.0170165)
